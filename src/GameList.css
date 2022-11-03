@@ -1,0 +1,26 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+    
+}
+.Game-List-Area{
+    display:flex;
+    flex-direction: row;
+    
+    list-style: none;
+}
+.MonoGame-item,.TwoGame-item,.Game-item{
+    color: blue;
+    font-size: large;
+
+}
+.Game-item{
+    flex-grow: 1;
+}
+.MonoGame-item{
+    flex-grow:0.3;
+}
+
+.TwoGame-item{
+    flex-grow: 0.32;
+}

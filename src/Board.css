@@ -1,0 +1,11 @@
+.board{
+    width:max-content;
+    padding:5%;
+    margin:13rem auto;
+}
+
+.row{
+    height: 3.3rem;
+    display:flex;
+    flex-direction: row;
+}
